@@ -16,7 +16,7 @@ public interface InStorageMapper {
      * @return
      */
     @Select("select FID intoId,FCPXH model,FTXM barCode,FRKRQ intoDate,FCPDJ price,FRKSL inCount,FCZRY operator," +
-            "FBZ remark from CPRK")
+            "FBZ remark from cprk")
     List<InStorage> getInStorageList();
 
     /**
