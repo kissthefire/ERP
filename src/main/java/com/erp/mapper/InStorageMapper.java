@@ -24,7 +24,7 @@ public interface InStorageMapper {
      * @param inStorage
      * @return
      */
-    @Insert("insert into CPRK(FCPXH,FTXM,FRKRQ,FCPDJ,FRKSL,FCZRY,FBZ) " +
+    @Insert("insert into cprk(FCPXH,FTXM,FRKRQ,FCPDJ,FRKSL,FCZRY,FBZ) " +
             "values(#{model},#{barCode},#{intoDate},#{price},#{inCount},#{operator},#{remark})")
     int addInStorage(InStorage inStorage);
 }

@@ -36,6 +36,8 @@ public class SalesDts {
     private Date salesDate;
     //销售人员
     private String salesman;
+    //安装人员
+    private String installman;
     //是否送管
     private Integer includePiple;
     //备注
