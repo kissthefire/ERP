@@ -23,7 +23,7 @@ public class Sales {
     //客户电话
     private String customerPhone;
     //销售日期
-    private Date salesDate;
+    private String salesDate;
     //销售价格
     private BigDecimal salesPrice;
     //成本价格

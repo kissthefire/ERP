@@ -24,9 +24,9 @@ public class OutStorageServiceImpl implements OutStorageService {
      * @return
      */
     @Override
-    public Response getOutStorageList(int pageNum,int pageSize){
+    public Response getOutStorageList(int pageNum,int pageSize,String queryTime,String keywords){
         PageHelper.startPage(pageNum==0?1:pageNum,pageSize==0?10:pageSize);
-        PageInfo<InStorage> pageInfo=new PageInfo<InStorage>(this.outStorageMapper.getOutStorageList());
+        PageInfo<OutStorage> pageInfo=new PageInfo<OutStorage>(this.outStorageMapper.getOutStorageList(queryTime,keywords));
         return Response.success(pageInfo);
     }
 

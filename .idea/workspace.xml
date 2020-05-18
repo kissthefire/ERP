@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b071a8d0-f56c-4947-846e-3b3c69a45aaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/erp/controller/OutstorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/erp/controller/SalesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/erp/controller/SalesDtsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/erp/service/impl/SalesDtsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/bean/entity/OutStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/bean/entity/OutStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/bean/entity/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/bean/entity/Salary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/bean/entity/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/bean/entity/Sales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/bean/entity/SalesDts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/bean/entity/SalesDts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/controller/InstorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/controller/InstorageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/mapper/InStorageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/mapper/InStorageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/mapper/OutStorageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/mapper/OutStorageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/mapper/SalesDtsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/mapper/SalesDtsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/service/InStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/service/InStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/service/OutStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/service/OutStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/service/SalesDtsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/service/SalesDtsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/service/impl/InStorageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/service/impl/InStorageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erp/service/impl/OutStorageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erp/service/impl/OutStorageServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c3q81LGNF1VHO3db2VWLGhHQY3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="F:/project/shuju-baas" />
+    <property name="settings.editor.selected.configurable" value="com.alibabacloud.intellij.config.AccountConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.erp.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ErpApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ERP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ErpApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b071a8d0-f56c-4947-846e-3b3c69a45aaa" name="Default Changelist" comment="" />
+      <created>1589767461529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589767461529</updated>
+      <workItem from="1589767465436" duration="7755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="589" y="242" key="FileChooserDialogImpl" timestamp="1589767493061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="589" y="242" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589767493061" />
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom" timestamp="1589780641166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641166" />
+    <state width="1877" height="396" key="GridCell.Tab.0.center" timestamp="1589780641166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641166" />
+    <state width="1877" height="396" key="GridCell.Tab.0.left" timestamp="1589780641166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641166" />
+    <state width="1877" height="396" key="GridCell.Tab.0.right" timestamp="1589780641166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641166" />
+    <state width="1877" height="412" key="GridCell.Tab.1.bottom" timestamp="1589780641077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641077" />
+    <state width="1877" height="412" key="GridCell.Tab.1.center" timestamp="1589780641077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641077" />
+    <state width="1877" height="412" key="GridCell.Tab.1.left" timestamp="1589780641076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641076" />
+    <state width="1877" height="412" key="GridCell.Tab.1.right" timestamp="1589780641077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641077" />
+    <state width="1877" height="412" key="GridCell.Tab.2.bottom" timestamp="1589780641077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641077" />
+    <state width="1877" height="412" key="GridCell.Tab.2.center" timestamp="1589780641077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641077" />
+    <state width="1877" height="412" key="GridCell.Tab.2.left" timestamp="1589780641077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641077" />
+    <state width="1877" height="412" key="GridCell.Tab.2.right" timestamp="1589780641077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589780641077" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589769624915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589769624915" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/erp/controller/InstorageController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -13,7 +13,7 @@ public interface InStorageService {
      * 查询库存列表
      * @return
      */
-    Response getInStorageList(int pageNum,int pageSize);
+    Response getInStorageList(int pageNum,int pageSize,String intoDate,String keywords);
 
     /**
      * 新增入库

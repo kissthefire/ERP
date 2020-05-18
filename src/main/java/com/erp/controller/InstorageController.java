@@ -20,8 +20,9 @@ public class InstorageController {
      */
     @RequestMapping(value = "list",method = RequestMethod.GET,produces = "application/json")
     @ApiOperation(value = "查询库存列表",notes = "查询库存列表",httpMethod = "GET")
-    public Response getInStorageList(@RequestParam(required = true) int pageNum,@RequestParam(required = true) int pageSize){
-        return this.inStorageService.getInStorageList(pageNum,pageSize);
+    public Response getInStorageList(@RequestParam(required = true) int pageNum,@RequestParam(required = true) int pageSize,
+                                     @RequestParam(required = false) String queryTime,@RequestParam(required=false)String keywords){
+        return this.inStorageService.getInStorageList(pageNum,pageSize,queryTime,keywords);
     }
 
     /**

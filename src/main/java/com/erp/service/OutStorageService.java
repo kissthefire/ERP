@@ -13,7 +13,7 @@ public interface OutStorageService {
      * 查询出库列表
      * @return
      */
-    Response getOutStorageList(int pageNum,int pageSize);
+    Response getOutStorageList(int pageNum,int pageSize,String queryTime,String keywords);
 
     /**
      * 新增出库

@@ -18,7 +18,7 @@ public class OutStorage {
     //出库日期
     private String barCode;
     //产品价格
-    private Date outDate;
+    private String outDate;
     //产品价格
     private BigDecimal price;
     //出库数量

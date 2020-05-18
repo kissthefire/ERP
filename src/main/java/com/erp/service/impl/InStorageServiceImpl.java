@@ -23,9 +23,10 @@ public class InStorageServiceImpl implements InStorageService {
      * 查询库存列表
      * @return
      */
-    public Response getInStorageList(int pageNum, int pageSize){
+    @Override
+    public Response getInStorageList(int pageNum, int pageSize,String intoDate,String keywords){
         PageHelper.startPage(pageNum==0?1:pageNum,pageSize==0?10:pageSize);
-        PageInfo<InStorage> pageInfo=new PageInfo<InStorage>(this.inStorageMapper.getInStorageList());
+        PageInfo<InStorage> pageInfo=new PageInfo<InStorage>(this.inStorageMapper.getInStorageList(intoDate,keywords));
         return Response.success(pageInfo);
     }
 
@@ -34,6 +35,7 @@ public class InStorageServiceImpl implements InStorageService {
      * @param inStorage
      * @return
      */
+    @Override
     public Response addInStorage(InStorage inStorage){
         int flag=this.inStorageMapper.addInStorage(inStorage);
         if(flag>0){

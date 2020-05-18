@@ -17,9 +17,12 @@ public interface OutStorageMapper {
      * 查询出库列表
      * @return
      */
-    @Select("select FID outId,FCPXH model,FTXM barCode,FCKRQ outDate,FCPDJ price,FCKSL outCount, " +
-            "FCZRY operator, FBZ remark from cpck")
-    List<InStorage> getOutStorageList();
+    @Select("<script>select FID outId,FCPXH model,FTXM barCode,FCKRQ outDate,FCPDJ price,FCKSL outCount, " +
+            "FCZRY operator, FBZ remark from cpck where 1=1" +
+            "<if test=\"queryTime!=null and queryTime!='' \"> and FCKRQ=#{queryTime}</if>" +
+            "<if test=\"keywords!=null and keywords!='' \"> and FCPXH=#{keywords}</if>" +
+            "</script>")
+    List<OutStorage> getOutStorageList(String queryTime,String keywords);
 
     /**
      * 新增出库

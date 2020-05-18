@@ -33,7 +33,7 @@ public class SalesDts {
     //收款方式
     private BigDecimal payWay;
     //销售日期
-    private Date salesDate;
+    private String salesDate;
     //销售人员
     private String salesman;
     //安装人员

@@ -20,11 +20,11 @@ public interface SalesDtsMapper {
 
     /**
      * 新增入库
-     * @param inStorage
+     * @param salesDts
      * @return
      */
     @Insert("INSERT INTO xsmx(FXSBM,FNAME,FADDR,FPHONE,FCPXH,FTXM,FXSJE,FSKFS,FXSRQ,FXSRY,FAZRY,FSFSG,FBZ)  " +
             "VALUES(#{salesCode},#{customerName},#{customerAddress},#{customerPhone},#{model},#{barCode},#{salesAmount},#{payWay}, " +
             "#{salesDate},#{salesman},#{installman},#{includePiple},#{remark})")
-    int addInStorage(InStorage inStorage);
+    int addSalesDts(SalesDts salesDts);
 }

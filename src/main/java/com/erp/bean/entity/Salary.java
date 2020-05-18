@@ -35,7 +35,7 @@ public class Salary {
     //合计薪资
     private BigDecimal totalSalary;
     //发薪日期
-    private Date payDate;
+    private String payDate;
     //备注
     private String remark;
 
